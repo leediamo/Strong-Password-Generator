@@ -32,11 +32,11 @@
             Array.prototype.push.apply(values, upper);
             }
         if(confirm("Do you want lower case letters?")){
-            Array.prototype.push.apply(values,lower);
+            Array.prototype.push.apply(values, lower);
             }
-        if(confirm("Do you want numbers?")){
-            Array.prototype.push.apply(values, number);
-            }
+        //if(confirm("Do you want numbers?")){
+           // Array.prototype.push.apply(values, number);
+            //}
     
         if(confirm("Do you want symbols?")){
             Array.prototype.push.apply(values, symbol);
@@ -51,9 +51,10 @@
 
 //Loop for function
 
-for (var i = 0; i < complexity; i++){
-    password = password + values.push(Math.floor(Math.random()* Math.floor(values.length)))
-    }
+for(var i=0; i<length; i++){
+    var random = Math.floor(Math.random()*values.length);
+    password += values[random];
+}
     document.getElementById("password").value = password;
 }}
 
