@@ -7,6 +7,7 @@ Please click the link below to access my Password Generator. Once you enter the 
 Enjoy!
 
 Link:
+https://leediamo.github.io/Strong-Password-Generator/
 
 ![](images/Screen%20Shot.png)
 
